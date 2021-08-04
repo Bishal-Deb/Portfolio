@@ -1,33 +1,33 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-  $('#menu').click(function(){
+  $('#menu').click(function () {
     $(this).toggleClass('fa-times');
     $('header').toggleClass('toggle');
   });
 
-  $(window).on('scroll load',function(){
+  $(window).on('scroll load', function () {
 
     $('#menu').removeClass('fa-times');
     $('header').removeClass('toggle');
-    }
-
   });
 
-  // smooth scrolling 
+  
 
-  $('a[href*="#"]').on('click',function(e){
+// smooth scrolling 
 
-    e.preventDefault();
+$('a[href*="#"]').on('click', function (e) {
 
-    $('html, body').animate({
+  e.preventDefault();
 
-      scrollTop : $($(this).attr('href')).offset().top,
+  $('html, body').animate({
 
-    },
-      500, 
-      'linear'
-    );
+    scrollTop: $($(this).attr('href')).offset().top,
 
-  });
+  },
+    500,
+    'linear'
+  );
 
 });
+
+})
