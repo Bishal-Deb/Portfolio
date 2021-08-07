@@ -402,6 +402,9 @@ header .navbar ul li a:hover{
     background-color:var(--yellow) ;
     color: black;
     font-size: large;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
