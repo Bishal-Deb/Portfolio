@@ -295,6 +295,12 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
+.portfolio .box-container p{
+    font-size: 1.5rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
 .portfolio .box-container .box span{
     font-size: 1.3rem;
     background:#222;
