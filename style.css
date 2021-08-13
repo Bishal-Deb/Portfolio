@@ -348,6 +348,7 @@ header .navbar ul li a:hover{
 }
 .portfolio .read h3{
     display: flex; 
+    color:#eee;
     font-size: small;
     padding: 1rem 0;
     padding-left: 3rem;
