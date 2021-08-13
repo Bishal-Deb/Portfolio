@@ -281,7 +281,7 @@ header .navbar ul li a:hover{
 .portfolio .box-container{
     display: flex;
     align-items: top;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     padding:1rem 0;
     padding-left: 3rem;
