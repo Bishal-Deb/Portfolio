@@ -186,7 +186,9 @@ header .navbar ul li a:hover{
 .about .row .info{
     flex:1 1 48rem;
     padding:2rem 1rem;
-    padding-left: 6rem;
+    padding-left: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .about .row .info h3{
@@ -364,7 +366,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content{
     flex:1 1 30rem;
-    padding:4rem;
+    padding: 3rem;
     padding-bottom: 0;
 }
 
