@@ -288,9 +288,9 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box{
-    width:27rem;
+    width:auto;
     margin:4rem 1rem;
-    padding-left: 4rem;
+    padding-left: 2rem;
     border-left: .2rem solid #fff;
     position: relative;
 }
@@ -299,9 +299,9 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box span{
     font-size: 1.3rem;
     background:#222;
-    color:#fff;
     border-radius: 5rem;
     padding:.5rem 2.5rem;
+    color: var(--yellow); 
 }
 
 .portfolio .box-container .box h3{
@@ -339,7 +339,7 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .read p{
-    font-size: 1.5rem;
+    font-size: medium;
     color:#eee;
     text-align: justify;
     padding: 0.5rem 0;
