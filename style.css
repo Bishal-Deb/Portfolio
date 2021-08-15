@@ -278,6 +278,11 @@ header .navbar ul li a:hover{
 }
 
 
+.education .Certificate{
+    padding-left: 3rem;
+}
+
+
 
 .portfolio .box-container{
     display: flex;
