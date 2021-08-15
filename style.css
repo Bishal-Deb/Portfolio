@@ -81,7 +81,7 @@ section{
 
 header{
     position: fixed;
-    top:0; left:0;
+    top:0; left:0; bottom: 0;
     z-index: 1000;
     height:100%;
     width:35rem;
@@ -92,6 +92,7 @@ header{
     flex-flow: column;
     text-align: center;
     overflow-y: auto;
+    padding: 0 15px;
 }
 
 header .user img{
