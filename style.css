@@ -97,7 +97,7 @@ header .user img{
     height:25rem;
     width:25rem;
     border-radius: 50%;
-    /* object-fit: cover; */
+    object-fit: cover;
     margin-bottom: 0.5rem;
     border:.5rem solid var(--yellow);
 }
