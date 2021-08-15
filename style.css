@@ -358,7 +358,7 @@ header .navbar ul li a:hover{
 
 .contact .row{
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     flex-wrap: wrap;
 }
