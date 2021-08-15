@@ -124,12 +124,12 @@ header .navbar ul{
 
 header .navbar ul li a{
     display: flex;
-    padding:1rem;
+    padding:0.5rem;
     margin:1.5rem 0;
     background:#333;
     color:#fff;
     font-size: 2rem;
-    border-radius: 5rem;
+    border-radius: 1rem;
     align-items: center;
     justify-content: center;
 }
