@@ -91,6 +91,8 @@ header{
     justify-content: center;
     flex-flow: column;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 header .user img{
