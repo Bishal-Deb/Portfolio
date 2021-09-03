@@ -282,9 +282,17 @@ header .navbar ul li a:hover{
 
 .education .Certificate{
     padding-left: 3rem;
+    color: white;
+    font-size: small;
 }
 
+.education .Certificate .info li a:link{
+    color: white;
+}
 
+.education .Certificate .info li a:hover{
+    color: var(--yellow);
+}
 
 .portfolio .box-container{
     display: flex;
@@ -354,6 +362,7 @@ header .navbar ul li a:hover{
     padding-left: 3rem;
     padding-right: 1.5rem;
 }
+
 .portfolio .read h3{
     display: flex; 
     color:#eee;
@@ -361,6 +370,20 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
     padding-left: 3rem;
     padding-right: 1.5rem;
+}
+
+.portfolio .read h3 img{
+    width: 25px; 
+    height: 25px; 
+    vertical-align:middle
+}
+
+.portfolio .read h3 a:link{
+    color: #eee;
+}
+
+.portfolio .read h3 a:hover{
+    color: var(--yellow);
 }
 
 .contact .row{
@@ -416,6 +439,14 @@ header .navbar ul li a:hover{
     color:#eee; 
     padding:1rem 0;
     font-weight: normal;
+}
+
+.contact .row .content .info h3 a:link{
+    color: #eee;
+}
+
+.contact .row .content .info h3 a:hover{
+    color:var(--yellow);
 }
 
 .contact .row .content .info h3 i{
