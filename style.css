@@ -378,14 +378,6 @@ header .navbar ul li a:hover{
     vertical-align:middle
 }
 
-.portfolio .read h3 a:link{
-    color: #eee;
-}
-
-.portfolio .read h3 a:hover{
-    color: var(--yellow);
-}
-
 .contact .row{
     display: flex;
     align-items: top;
