@@ -433,7 +433,7 @@ header .navbar ul li a:hover{
     font-weight: normal;
 }
 
-.contact .row .content .info h3 a:link{
+.contact .row .content .info h3 a{
     color: #eee;
 }
 
