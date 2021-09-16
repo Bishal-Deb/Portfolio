@@ -286,7 +286,7 @@ header .navbar ul li a:hover{
     font-size: small;
 }
 
-.education .Certificate .info li a:link{
+.education .Certificate .info li a{
     color: white;
 }
 
