@@ -2,4 +2,4 @@
 Personal Portfolio website using HTML5, CSS, JavaScript
 
 
-**http://www.bishaldeb.tech**
+**https://bishal-deb.github.io/Portfolio/**
